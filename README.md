@@ -16,7 +16,7 @@ See list of available commands below
 
 See list of available sub-commands under each command below
 
-| Command  | Sub-command  | Arguements  | Explainination  | Example |
+| Command  | Sub-command  | Arguements  | Explaination  | Example |
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 | **cco**   | eoa-to-safe  | 1.contractAddress 2.safeAddress 3.chainId  | Convert the ownership of an Ethereum smart contract from an externally owned wallet address to a Safe (multi-signature) wallet address  | fs-eth-tools cco 0x475e0DB6c69117565A85cd6cBc06a917274CE189 0xD503aa20Fd1704B8600933E531804d3d4B58672d 137	|
 | **cco**   | help  |   | Display list of available sub-commands for **cco** | fs-eth-tools cco help	|
