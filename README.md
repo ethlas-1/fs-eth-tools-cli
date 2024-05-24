@@ -10,8 +10,8 @@ Useful toolset from FailSafe team to perform various operations on EVM blockchai
 
 | Command  | Explaination  |
 | ------------ | ------------ |
-|  **cco** |  Manage the ownership of Ethereum smart contracts that inherits OpenZeppelin's Ownable contract |
-|  **ace** | Manage the roles of an Ethereum smart contracts that inherits OpenZeppelin's AccessControlEnumerable contract  |
+|  **cco** |  Manage the ownership of an Ethereum smart contract that inherits OpenZeppelin's Ownable contract |
+|  **ace** | Manage the roles of an Ethereum smart contract that inherits OpenZeppelin's AccessControlEnumerable contract  |
 | **help**| Display list of available Commands |
 
 ## Available sub-commands under each command
