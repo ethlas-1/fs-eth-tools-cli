@@ -1,0 +1,19 @@
+{
+  "name": "fs-eth-tools-cli",
+  "version": "1.0.0",
+  "description": "Useful toolset from FailSafe team to perform various operations on EVM blockchain using command line",
+  "main": "./fs-eth-tools.js",
+  "repository": "https://github.com/ethlas-1/fs-eth-tools-cli",
+  "author": "Mohan <mohan@ethlas.com>",
+  "license": "MIT",
+  "private": false,
+  "bin": {
+    "fs-eth-tools": "./fs-eth-tools.js"
+  },
+  "dependencies": {
+    "chalk": "4.1.2",
+    "commander": "^12.1.0",
+    "dotenv": "^16.3.1",
+    "web3": "^1.9.0"
+  }
+}
