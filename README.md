@@ -6,7 +6,7 @@ Useful toolset from FailSafe team to perform various operations on EVM blockchai
 1. Install globally using **npm install -g fs-eth-tools-cli**
 2. Execute commands using the command prefix **fs-eth-tools**
 
-See list of available commands below
+## Available commands
 
 | Command  | Explaination  |
 | ------------ | ------------ |
@@ -14,7 +14,7 @@ See list of available commands below
 |  **ace** | Manage the roles of an Ethereum smart contracts that inherits OpenZeppelin's AccessControlEnumerable contract  |
 | **help**| Display list of available Commands |
 
-See list of available sub-commands under each command below
+## Available sub-commands under each command
 
 | Command  | Sub-command  | Arguements  | Explaination  | Example |
 | ------------ | ------------ | ------------ | ------------ | ------------ |
