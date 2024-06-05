@@ -1,5 +1,5 @@
 function getRPCURL(chainId) {
-  const supportedChainIds = [1, 56, 137, 8453];
+  const supportedChainIds = [1, 56, 137, 8453, 84532];
   const RPC_URLS = {
     137: "https://polygon-rpc.com",
     1: "https://mainnet.infura.io/v3/80ad14d1287a4669a0889f5d735391a7",
