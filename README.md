@@ -1,5 +1,5 @@
 # fs-eth-tools-cli
-Useful toolset from FailSafe team to perform various operations on EVM blockchain on the CLI
+Useful toolset to perform various operations on EVM blockchain on the CLI
 
 ## Installation
 
@@ -22,6 +22,7 @@ Useful toolset from FailSafe team to perform various operations on EVM blockchai
 | **cco**   | help  |   | Display list of available sub-commands for **cco** | fs-eth-tools cco help	|
 | **ace**   | check-if-account-has-role  | 1.contractAddress 2.walletAddress 3.roleBytes32 4.chainId  | Check if an account has a role on the Ethereum smart contract that inherits OpenZeppelin's AccessControlEnumerable contract   | fs-eth-tools ace check-if-account-has-role 0x986F5dD85b7C7361ed9Fc4b5094d3C5eD1a34fDa 0xe7804c37c13166fF0b37F5aE0BB07A3aEbb6e245 0x0000000000000000000000000000000000000000000000000000000000000003 137	|
 | **ace**   | check-if-account-has-role  | 1.contractAddress 2.walletAddress 3.roleBytes32 4.chainId  | Grant role to an address on the Ethereum smart contract that inherits OpenZeppelin's AccessControlEnumerable contract   | fs-eth-tools ace grant-role-to-address 0x986F5dD85b7C7361ed9Fc4b5094d3C5eD1a34fDa 0xe7804c37c13166fF0b37F5aE0BB07A3aEbb6e245 0x0000000000000000000000000000000000000000000000000000000000000003 137	|
+| **ace**   | grant-role-to-address  | 1.contractAddress 2.walletAddress 3.roleBytes32 4.chainId  | Grant role to an address on the Ethereum smart contract that inherits OpenZeppelin's AccessControlEnumerable contract   | fs-eth-tools ace grant-role-to-address 0x986F5dD85b7C7361ed9Fc4b5094d3C5eD1a34fDa 0xe7804c37c13166fF0b37F5aE0BB07A3aEbb6e245 0x0000000000000000000000000000000000000000000000000000000000000003 137	|
 | **ace**   | revoke-role-from-address  | 1.contractAddress 2.walletAddress 3.roleBytes32 4.chainId  | Revoke role from an address on the Ethereum smart contract that inherits OpenZeppelin's AccessControlEnumerable contract   | fs-eth-tools ace revoke-role-from-address 0x986F5dD85b7C7361ed9Fc4b5094d3C5eD1a34fDa 0xe7804c37c13166fF0b37F5aE0BB07A3aEbb6e245 0x0000000000000000000000000000000000000000000000000000000000000003 137	|
 | **ace**   | list-accounts-for-role  | 1.contractAddress 2.roleBytes32 3.chainId  | List accounts that have a given role on the Ethereum smart contract that inherits OpenZeppelin's AccessControlEnumerable contract | fs-eth-tools ace list-accounts-for-role 0x986F5dD85b7C7361ed9Fc4b5094d3C5eD1a34fDa 0x0000000000000000000000000000000000000000000000000000000000000003 137	|
 | **ace**   | help  |   | Display list of available sub-commands for **ace** | fs-eth-tools ace help	|
