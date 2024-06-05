@@ -74,7 +74,7 @@ async function commandHandlerEoAToSafe(contractAddress, safeAddress, chainId) {
       return 1;
     }
   } catch (error) {
-    if (error.message.indexOf("execution reverted" >= 0)) {
+    if (error.message.indexOf("execution reverted") >= 0) {
       throw new Error(
         "Execution reverted by the smart contract. Check if private key in the environment file is the current owner of the contract."
       );

@@ -5,6 +5,7 @@ function getRPCURL(chainId) {
     1: "https://mainnet.infura.io/v3/80ad14d1287a4669a0889f5d735391a7",
     56: "https://bsc-dataseed1.binance.org",
     8453: "https://mainnet.base.org",
+    84532: "https://sepolia.base.org",
   };
 
   if (supportedChainIds.includes(chainId)) {
