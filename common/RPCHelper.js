@@ -1,11 +1,12 @@
 function getRPCURL(chainId) {
-  const supportedChainIds = [1, 56, 137, 8453, 84532];
+  const supportedChainIds = [1, 56, 137, 8453, 84532, 238];
   const RPC_URLS = {
     137: "https://polygon-rpc.com",
     1: "https://mainnet.infura.io/v3/80ad14d1287a4669a0889f5d735391a7",
     56: "https://bsc-dataseed1.binance.org",
     8453: "https://mainnet.base.org",
     84532: "https://sepolia.base.org",
+    238: "https://rpc.blast.io",
   };
 
   if (supportedChainIds.includes(chainId)) {
